@@ -2,9 +2,70 @@
 <html>
 	<head>
 		<style>
+			/* css reset */
+			html, body { margin:0; padding:0; height:100%; }
+			body {
+				background-color: #eee;
+			}
+			.titlebar {
+				background-color: #999;
+				height: 90px;
+			}
+			.button {
+				background-color: #ccc;
+				border-radius: 25px;
+				margin-left: 15px;
+				margin-top: 20px;
+				float: left;
+				height: 50px;
+				width: 75px;
+			}
+			.box {
+				background-color: #777;
+				height: 90px;
+				width: 150px;
+				float: right;
+			}
+			.search {
+				background-color: #ccc;
+				border-radius: 25px;
+				margin-right: 15px;
+				margin-top: 20px;
+				float: right;
+				height: 50px;
+				width: 125px;
+			}
+			.column {
+				background-color: #ccc;
+				margin: auto;
+				padding: 50px;
+				height: 100%;
+				width: 100%;
+			}
+			.boxes {
+				background-color: #fff;
+				float: left;
+				margin-left: 50px;
+				margin-bottom: 50px;
+				height: 300px;
+				width: 300px;
+			}
 		</style>
 	</head>
 	
 	<body>
+		<div class= "titlebar">
+			<div class= "button"></div>
+			<div class= "button"></div>
+			<div class= "button"></div>
+			<div class= "box"></div>
+			<div class= "search"></div>
+		</div>
+		<div class= "column">
+			<div class= "boxes"></div>
+			<div class= "boxes"></div>
+			<div class= "boxes"></div>
+			<div class= "boxes"></div>
+		</div>
 	</body>
 </html>
